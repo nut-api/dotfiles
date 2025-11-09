@@ -1,2 +1,8 @@
-# dotfiles
-My dotfiles
+
+# Dotfiles symlinked
+
+### Install with stow
+
+```bash
+stow .
+```
