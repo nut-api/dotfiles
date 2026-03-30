@@ -18,10 +18,20 @@
         "kubernetes-mcp-server@latest"
       ],
       "enabled": true
+    },
+    "web-search": {
+      "type": "local",
+      "command": ["npx", "-y", "open-websearch@latest"],
+      "enabled": true,
+      "environment": {
+        "MODE": "stdio",
+        "DEFAULT_SEARCH_ENGINE": "duckduckgo",
+        "ALLOWED_SEARCH_ENGINES": "duckduckgo,bing,exa"
+      },
     }
   },
   "plugin": [
-    "opencode-anthropic-auth@latest"
+    "opencode-anthropic-oauth@latest"
   ]
   // "mode": {
   //   "build": {
