@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "plugins": {
+    "claude-hud@claude-hud": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-hud/claude-hud/0.0.12",
+        "version": "0.0.12",
+        "installedAt": "2026-04-16T05:35:12.394Z",
+        "lastUpdated": "2026-04-16T05:35:12.394Z",
+        "gitCommitSha": "bfde7cfd9689faa35fca1aacb08960de3c837ffc"
+      }
+    ],
+    "caveman@caveman": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/caveman/caveman/c2ed24b3e5d4",
+        "version": "c2ed24b3e5d4",
+        "installedAt": "2026-04-16T08:02:45.761Z",
+        "lastUpdated": "2026-04-16T08:02:45.761Z",
+        "gitCommitSha": "c2ed24b3e5d412cd0c25197b2bc9af587621fd99"
+      }
+    ],
+    "andrej-karpathy-skills@karpathy-skills": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/karpathy-skills/andrej-karpathy-skills/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-04-17T10:36:54.319Z",
+        "lastUpdated": "2026-04-17T10:36:54.319Z",
+        "gitCommitSha": "c9a44ae835fa2f5765a697216692705761a53f40"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/context7/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-17T10:38:50.590Z",
+        "lastUpdated": "2026-04-17T10:38:50.590Z"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/security-guidance/unknown",
+        "version": "unknown",
+        "installedAt": "2026-04-17T10:38:50.604Z",
+        "lastUpdated": "2026-04-17T10:38:50.604Z"
+      }
+    ]
+  }
+}

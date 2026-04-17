@@ -1,0 +1,19 @@
+{
+  "display": {
+    "showTools": false,
+    "showAgents": true,
+    "showTodos": true,
+    "showProject": true,
+    "showTokenBreakdown": true,
+    "showUsage": true
+  },
+  "gitStatus": {
+    "enabled": true,
+    "showDirty": false,
+    "showAheadBehind": false,
+    "showFileStats": false
+  },
+  "lineLayout": "expanded",
+  "showSeparators": false,
+  "language": "en"
+}
