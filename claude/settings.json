@@ -1,5 +1,17 @@
 {
-  "model": "sonnet[1m]",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rtk hook claude"
+          }
+        ]
+      }
+    ]
+  },
   "statusLine": {
     "type": "command",
     "command": "bash -c 'plugin_dir=$(ls -d \"${CLAUDE_CONFIG_DIR:-$HOME/.claude}\"/plugins/cache/claude-hud/claude-hud/*/ 2>/dev/null | awk -F/ '\"'\"'{ print $(NF-1) \"\\t\" $(0) }'\"'\"' | sort -t. -k1,1n -k2,2n -k3,3n -k4,4n | tail -1 | cut -f2-); exec \"/opt/homebrew/bin/bun\" --env-file /dev/null \"${plugin_dir}src/index.ts\"'"
@@ -9,7 +21,11 @@
     "caveman@caveman": true,
     "andrej-karpathy-skills@karpathy-skills": true,
     "context7@claude-plugins-official": true,
-    "security-guidance@claude-plugins-official": true
+    "security-guidance@claude-plugins-official": true,
+    "superpowers@claude-plugins-official": false,
+    "firecrawl@claude-plugins-official": false,
+    "clangd-lsp@claude-plugins-official": true,
+    "cloudflare@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "claude-hud": {
@@ -31,5 +47,7 @@
       }
     }
   },
-  "effortLevel": "medium"
+  "effortLevel": "high",
+  "advisorModel": "opus",
+  "tui": "fullscreen"
 }

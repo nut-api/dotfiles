@@ -15,11 +15,12 @@ Pull real work from git history for the current project this week and write it i
    - Today's date → ISO week number → `YYYY-Www`
    - Week start = Monday of this week, week end = Sunday
 
-2. **Read git log for this week**
+2. **Read git log for this week — authored by the user only**
    ```bash
-   git log --since="YYYY-MM-DD 00:00" --until="YYYY-MM-DD 23:59" --oneline --all
+   git log --since="YYYY-MM-DD 00:00" --until="YYYY-MM-DD 23:59" --oneline --all \
+     --author="nut-api" --author="nut@apiplustech.com"
    ```
-   Use actual Monday and Sunday dates.
+   Use actual Monday and Sunday dates. Only commits where the user is the author count — skip commits by teammates even if they appear in the same repo or were reviewed by the user.
 
 3. **For each commit, inspect the diff**
    ```bash
@@ -31,6 +32,7 @@ Pull real work from git history for the current project this week and write it i
 4. **Filter — only log real work**
    Real work = feature built, bug fixed, infra changed, behavior changed, PR created/merged.
    Skip: bot commits (`apiplus-bot`), auto-sync commits, trivial renames with no functional impact, pure version bumps with no logic change.
+   Skip: commits authored by teammates — even if the user reviewed or merged them.
 
 5. **Determine worklog file**
    File: `~/.claude/work-log/YYYY-Www.md`

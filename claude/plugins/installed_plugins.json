@@ -43,10 +43,59 @@
     "security-guidance@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/security-guidance/unknown",
-        "version": "unknown",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/security-guidance/2.0.3",
+        "version": "2.0.3",
         "installedAt": "2026-04-17T10:38:50.604Z",
-        "lastUpdated": "2026-04-17T10:38:50.604Z"
+        "lastUpdated": "2026-06-03T03:24:15.360Z"
+      }
+    ],
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0",
+        "version": "5.1.0",
+        "installedAt": "2026-04-24T04:54:38.938Z",
+        "lastUpdated": "2026-05-05T04:48:53.322Z",
+        "gitCommitSha": "6efe32c9e2dd002d0c394e861e0529675d1ab32e"
+      }
+    ],
+    "firecrawl@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/firecrawl/1.0.9",
+        "version": "1.0.9",
+        "installedAt": "2026-05-06T09:09:38.885Z",
+        "lastUpdated": "2026-06-03T03:24:22.383Z",
+        "gitCommitSha": "122a6ae6cefb4393c2c30740aee55ba02532ccdc"
+      }
+    ],
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-12T04:54:01.441Z",
+        "lastUpdated": "2026-05-12T04:54:01.441Z"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "project",
+        "projectPath": "/Volumes/workspace/nut-api/concert-bot",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-29T04:09:11.470Z",
+        "lastUpdated": "2026-05-29T04:09:11.470Z"
+      }
+    ],
+    "cloudflare@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/cloudflare/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-05-29T04:12:15.070Z",
+        "lastUpdated": "2026-05-29T04:12:15.070Z",
+        "gitCommitSha": "60147cbb773649eadca89cee92b4e0caf02234b4"
       }
     ]
   }
