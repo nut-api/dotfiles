@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "article-writing",
+  "owner": "affaan-m",
+  "repo": "everything-claude-code",
+  "path": ".agents/skills/article-writing",
+  "branch": "main",
+  "sha": "34b5e8ef75e29da8f3bdc5177d58ab0877c9315e",
+  "source": "manual"
+}
