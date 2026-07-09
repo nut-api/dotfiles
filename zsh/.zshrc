@@ -160,6 +160,7 @@ export PATH=/Users/nut/wsp/istio-1.29.1/bin:$PATH
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# just a test key, it revoked.
 export GEMINI_API_KEY=AIzaSyBi_CuoF0Wu8csEa_iON5e7TAPOtFY2Hio
 
 # Alias tools
