@@ -8,6 +8,7 @@ fi
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/Users/nut/Library/Python/3.12/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -116,7 +117,7 @@ alias k="kubectl"
 alias kx="kubectx"
 alias kn="kubens"
 KUBECONFIG="/Users/nut/.kube/config"
-#export KUBECONFIG="${KUBECONFIG}:/Users/nut/wsp/nut-api/talos-hetzner-dedicated/kubeconfig"
+export KUBECONFIG="${KUBECONFIG}:/Users/nut/go/development/kubeconfig"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -134,15 +135,22 @@ alias ir="istioctl pc r"
 
 export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
 export NVM_DIR="$HOME/.nvm"
+# Put the default node version's bin dir on PATH immediately (cheap dir listing,
+# no nvm.sh sourcing) so node/npm/npx and npm-installed shims (e.g. Claude Code
+# hooks like gh-axi) are available even in non-interactive shells that never
+# call the nvm/node/npm/npx functions below - e.g. hooks Claude Code runs via
+# `/bin/sh -c`, which inherit PATH but never source .zshrc.
+if [ -d "$NVM_DIR/versions/node" ]; then
+  _nvm_default_version=$(command ls "$NVM_DIR/versions/node" | sort -V | tail -1)
+  [ -n "$_nvm_default_version" ] && export PATH="$NVM_DIR/versions/node/$_nvm_default_version/bin:$PATH"
+  unset _nvm_default_version
+fi
 nvm() {
-  unset -f nvm node npm npx
+  unset -f nvm
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
   [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
   nvm "$@"
 }
-node() { nvm; node "$@"; }
-npm()  { nvm; npm "$@"; }
-npx()  { nvm; npx "$@"; }
 
 #source <(kubectl argo rollouts completion zsh)
 alias kr="kubectl-argo-rollouts"
