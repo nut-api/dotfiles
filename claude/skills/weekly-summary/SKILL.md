@@ -47,16 +47,23 @@ Subject: [infra] weekly update | YYYY-MM-DD
 
 Infrastructure — Weekly Progress
 
+*Context: <1–2 sentences, plain language: what the project is and what this week's work was about>*
+
 **What We Accomplished**
-- <completed item: what was built/fixed, key technical detail>
-- <completed item: what was built/fixed, key technical detail>
+- **<short plain-language label>:** <what the problem was / what changed, and why it matters>. <one proof point: number, test result>.
+- **<short plain-language label>:** <what the problem was / what changed, and why it matters>. <one proof point: number, test result>.
 
 **In Progress**
-- <ongoing item: what it is, current status, what remains>
-- <ongoing item: what it is, current status, what remains>
+- **<short plain-language label>:** <what it is and why, current status, what remains>.
+- **<short plain-language label>:** <what it is and why, current status, what remains>.
 ```
 
 Rules:
-- Each bullet 1–2 sentences max — technical specifics, no padding
+- Write for a reader with **no background** on the project. Boss is engineering-savvy in general but has not followed the details of this work.
+- Always include the italic Context line so bullets make sense without prior knowledge. Skip it only if the same project ran the previous weeks and boss already has the context.
+- Each bullet leads with a bold plain-language label (what it is), then problem → change → why it matters. Say what was wrong before saying what was fixed.
+- Avoid internal jargon, tool names, and code identifiers (e.g. describe "compaction" as "the routine that merges old backup files", "SIGTERM" as "the shutdown request"). If a term is unavoidable, explain it in a few words inline.
+- Keep the technical proof, but as a plain result ("0 lost writes across 4 tests", "30s → 1–3s"), not as implementation detail.
+- Each bullet 1–3 short sentences max, no padding
 - Group related sub-items under one bullet (don't list every sub-task)
 - Date in subject = today's date

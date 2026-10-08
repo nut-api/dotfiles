@@ -34,28 +34,30 @@
     "context7@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/context7/unknown",
-        "version": "unknown",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/context7/b78ac49cdc6b",
+        "version": "b78ac49cdc6b",
         "installedAt": "2026-04-17T10:38:50.590Z",
-        "lastUpdated": "2026-04-17T10:38:50.590Z"
+        "lastUpdated": "2026-10-08T05:08:11.943Z",
+        "gitCommitSha": "b78ac49cdc6b3d7b61c4439470e311f4291265b1"
       }
     ],
     "security-guidance@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/security-guidance/2.0.3",
-        "version": "2.0.3",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/security-guidance/2.0.11",
+        "version": "2.0.11",
         "installedAt": "2026-04-17T10:38:50.604Z",
-        "lastUpdated": "2026-06-03T03:24:15.360Z"
+        "lastUpdated": "2026-10-08T05:08:11.937Z",
+        "gitCommitSha": "b78ac49cdc6b3d7b61c4439470e311f4291265b1"
       }
     ],
     "superpowers@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/superpowers/5.1.0",
-        "version": "5.1.0",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/superpowers/6.4.1",
+        "version": "6.4.1",
         "installedAt": "2026-04-24T04:54:38.938Z",
-        "lastUpdated": "2026-05-05T04:48:53.322Z",
+        "lastUpdated": "2026-09-23T07:51:16.634Z",
         "gitCommitSha": "6efe32c9e2dd002d0c394e861e0529675d1ab32e"
       }
     ],
@@ -85,7 +87,15 @@
         "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown",
         "version": "unknown",
         "installedAt": "2026-05-29T04:09:11.470Z",
-        "lastUpdated": "2026-05-29T04:09:11.470Z"
+        "lastUpdated": "2026-07-03T15:49:14.018Z"
+      },
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/frontend-design/b78ac49cdc6b",
+        "version": "b78ac49cdc6b",
+        "installedAt": "2026-06-17T05:41:19.024Z",
+        "lastUpdated": "2026-10-08T05:08:11.942Z",
+        "gitCommitSha": "b78ac49cdc6b3d7b61c4439470e311f4291265b1"
       }
     ],
     "cloudflare@claude-plugins-official": [
@@ -96,6 +106,54 @@
         "installedAt": "2026-05-29T04:12:15.070Z",
         "lastUpdated": "2026-05-29T04:12:15.070Z",
         "gitCommitSha": "60147cbb773649eadca89cee92b4e0caf02234b4"
+      }
+    ],
+    "ponytail@ponytail": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/ponytail/ponytail/4.6.0",
+        "version": "4.6.0",
+        "installedAt": "2026-06-16T04:56:19.556Z",
+        "lastUpdated": "2026-06-16T04:56:19.556Z",
+        "gitCommitSha": "687c1b339872289d70f65c5eaabce850b1663867"
+      }
+    ],
+    "gopls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/gopls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-16T09:09:21.504Z",
+        "lastUpdated": "2026-06-16T09:09:21.504Z"
+      }
+    ],
+    "ui-ux-pro-max@ui-ux-pro-max-skill": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0",
+        "version": "2.5.0",
+        "installedAt": "2026-06-17T05:40:34.200Z",
+        "lastUpdated": "2026-06-17T05:40:34.200Z",
+        "gitCommitSha": "b7e3af80f6e331f6fb456667b82b12cade7c9d35"
+      }
+    ],
+    "mattpocock-skills@mattpocock": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/mattpocock/mattpocock-skills/1.2.0",
+        "version": "1.2.0",
+        "installedAt": "2026-07-15T10:35:33.584Z",
+        "lastUpdated": "2026-07-15T10:35:33.584Z",
+        "gitCommitSha": "e9fcdf95b402d360f90f1db8d776d5dd450f9234"
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/nut/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-07-16T06:40:04.746Z",
+        "lastUpdated": "2026-07-16T06:40:04.746Z"
       }
     ]
   }

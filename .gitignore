@@ -39,3 +39,24 @@ claude/tasks/
 claude/usage.db
 claude/work-log/
 claude/.last-cleanup
+claude/.ponytail-active
+claude/daemon/
+claude/daemon.*
+claude/jobs/
+claude/state/
+claude/gh-pr-status-cache.json
+claude/plugins/.last_inuse_sweep
+claude/plugins/plugin-catalog-cache.json
+claude/plugins/synced/
+claude/skills/synced/
+# third-party skills symlinked from ~/.agents (npx skills add thananon/9arm-skills)
+claude/skills/debug-mantra
+claude/skills/management-talk
+claude/skills/post-mortem
+claude/skills/qwen-agent
+claude/skills/qwenchance
+claude/skills/scrutinize
+
+# zsh runtime
+zsh/.zsh_history
+zsh/.zcompdump*
